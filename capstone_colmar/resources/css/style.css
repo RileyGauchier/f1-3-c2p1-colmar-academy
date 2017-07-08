@@ -1,0 +1,410 @@
+/* page font */
+html {
+  font-family: Helvetica;
+  color: gray;
+}
+
+/* header bar */
+h2 {
+  font-size: 2rem;
+}
+
+a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+  margin-left: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo span {
+  font-weight: bold;
+  color: hsla(0, 0%, 20%, 0.9)
+}
+
+.mobile-logo {
+  display: none;
+}
+
+.navigation-list {
+  display: flex;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+
+.navigation-list a{
+    padding: 1rem;
+    transition: color 0.8s ease-in 0.2s;
+}
+
+.navigation-list a:hover {
+  color: hsla(0, 0%, 20%, 0.9);
+}
+
+#header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+}
+
+/* for mobile space*/
+.mobile-space {
+  display: none;
+}
+
+/* for large-content */
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: hsla(0, 0%, 20%, 0.9);
+}
+
+.large-content {
+  display: flex;
+}
+
+.large-main img {
+  width: 59.3625rem;
+  margin: 2rem 1.5rem;
+}
+
+/* for dim-background */
+.dim-background {
+  background-color: hsl(0, 0%, 90%);
+}
+
+/*for subtle-background */
+.subtle-background {
+  background-color: hsl(240, 0%, 95%);
+}
+
+/* for starting-point */
+.side-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+  width: 25%;
+}
+
+.side-section span {
+  font-size: 1.5rem;
+}
+
+.textspace {
+  margin-top: 2rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  padding: 0.5rem 0;
+  color: white;
+}
+
+.button a {
+  transition: color 1s linear 0.5s;
+}
+
+.button a:hover {
+  color: hsl(0, 100%, 80%);
+}
+
+/* for annoucements */
+.announcements-text {
+  display: flex;
+  flex-direction: column;
+  width: 59.3625rem;
+}
+.announcements-text h1 {
+  margin: 2rem 1.5rem 1.5rem 1.5rem;
+}
+
+.announcements-text p {
+  margin: 1.5rem;
+}
+
+/*for announcements readmore section */
+.lc-readmore {
+  display: flex;
+  width: 26.4375rem;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.lc-readmore img {
+  width: 35%;
+  padding: 1rem;
+}
+
+.readmore-box {
+  display: flex;
+  align-items: center;
+  border: 0.16rem solid hsl(0, 0%, 90%);
+}
+
+.readmore-text p{
+  padding: 0.5rem;
+}
+
+.readmore-text a {
+  font-size: 1rem;
+  color: hsl(220, 80%, 80%);
+  transition: color 1s linear 0.5s;
+}
+
+.readmore-text a:hover {
+  color: hsl(240, 100%, 80%);
+}
+
+.readmore-text h3 {
+  font-size: 1.5rem;
+  color: hsla(0, 0%, 20%, 0.9);
+  padding: 0.5rem;
+}
+
+/*for medium content */
+.medium-content h1 {
+  padding: 2rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+.class-width {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.class-options {
+  background-color: white;
+  margin: 0.5rem 1rem;
+  width: 13.75rem;
+}
+
+.class-options img {
+  width: 13.75rem;
+}
+
+.class-options h4 {
+  font-size: 1.75rem;
+  color: hsla(0, 0%, 20%, 0.9);
+  margin: 1rem
+}
+
+.class-options span {
+  padding: 0.5rem 1rem;
+}
+
+.class-options p {
+  padding: 1.5rem 1rem;
+}
+
+/* thesis */
+.thesis {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thesis-box {
+  display: flex;
+  align-items: center;
+  width: 26.4375rem;
+}
+
+.lc-thesis {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.urban {
+  width: 59.3625rem;
+  margin: 1.5rem 1.5rem;
+}
+
+.thesis h1 {
+  padding: 2rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+.thesis h4 {
+  font-size: 1.75rem;
+  color: hsla(0, 0%, 20%, 0.9);
+  margin: 1.5rem;
+}
+
+.thesis p {
+  font-size: 1rem;
+  color: gray;
+}
+
+.thesis-article h4 {
+  margin: 0.5rem 1rem;
+  width: 13.75rem;
+}
+
+.thesis-article p {
+  margin: 0.5rem 1rem;
+  width: 13.75rem;
+}
+
+.thesis-box img{
+  padding: 1rem;
+  width: 35%;
+}
+
+/*for footer */
+footer {
+  border-top:  0.16rem solid hsl(0, 0%, 90%);
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-info p {
+  padding: 1rem;
+}
+
+/* for mobile sized screens*/
+@media only screen and (max-width: 35rem) {
+
+  /* for header-bar */
+  #header-bar h2 {
+    display: none;
+  }
+
+  #header-bar {
+    height: 4rem;
+  }
+
+  .logo {
+    width: 100%;
+    margin: 1.5rem;
+  }
+
+  .logo img {
+    margin: auto;
+  }
+
+  .mobile-logo {
+    display: block;
+  }
+
+  .mobile-space {
+    background-color: gray;
+    display: block;
+    height: 11.25rem;
+  }
+
+  .navigation-list {
+    display: none;
+  }
+
+  /* removes large images */
+  .large-main {
+    display: none;
+  }
+
+  /* for starting point*/
+  .side-section {
+    width: 100%;
+    margin-right: 1rem;
+  }
+
+  .button {
+    background-color: gray;
+    margin-bottom: 2rem;
+  }
+
+  /* for annoucements */
+  .lc-readmore {
+    width: 100%;
+  }
+
+  .lc-readmore img {
+    padding: 0;
+    margin: 1rem;
+    width: 100%;
+  }
+
+  .readmore-box {
+    border: none;
+    display: block;
+    width: 93%;
+  }
+
+  /* for changing background-color */
+  .mobile-change-back {
+    background-color: hsl(240, 0%, 95%);
+  }
+
+  /* for classes */
+  .class-width {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .class-options {
+    background-color: hsl(0, 0%, 90%);
+    color: hsla(0, 0%, 20%, 0.9);
+    width: 100%;
+  }
+
+  .class-options img {
+    display: none;
+  }
+
+  .class-options span {
+    display: none;
+  }
+
+  .class-options p {
+    display: none;
+  }
+
+  /* for thesis */
+  .lc-thesis {
+    display: none;
+  }
+
+  .thesis h4 {
+    display: none;
+  }
+
+  .thesis p {
+    display: none;
+  }
+
+  .urban {
+    margin: 2rem 0 1.5rem 0;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+  /* for footer */
+  footer {
+    justify-content: center;
+  }
+
+  .footer-info {
+    display: none;
+  }
+}
